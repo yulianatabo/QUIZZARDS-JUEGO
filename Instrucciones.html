@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZARDS</title>
+    <link rel="icon" href="img/LOGO2 (2).png">
+    <link rel="stylesheet" href="css/instrucciones.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" ></script>
+</head>
+<body id="body">
+    <!--Encabezado-->
+    <header>
+        <!--Caja del icono para el despliegue del menú-->
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+
+        <!--Caja para el nombre del proyecto-->
+        <div class="nom">
+            <!--Estilo del titulo: iluminación-->
+            <style>
+                .neon{
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px rgb(0, 47, 255), 0 0 80px rgb(27, 8, 110), 0 0 90px rgb(0, 255, 76);
+                }
+            </style>
+            <!--Titulo principal-->
+            <h1 class="text-4xl tracking-wider neon">QUIZZARDS</h1>
+        </div>
+
+        <!--CAJA para el logo-->
+        <div class="nav">
+           <a href="index.html"><img src="img/LOGO2 (2).png"></a> 
+        </div>
+
+    </header>
+
+    <!--Opciones del menú-->
+    <div class="menu__side" id="menu_side">
+        <div class="options__menu">	
+             
+            <!--Primera opción: inicio-->
+            <a href="index.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-home" title="Inicio"></i>
+                    <h4>Inicio</h4>
+                </div>
+            </a>
+
+            <!--Segunda opción: Categorias-->
+            <a href="Categorias.html">
+                <div class="option">
+                    <i class="far fa-file" title="Categorias"></i>
+                    <h4>Categorias</h4>
+                </div>
+            </a>
+
+            <!--Tercera opción:Instrucciones-->
+            <a href="Instrucciones.html">
+                <div class="option">
+                    <i class="far fa-sticky-note" title="Instrucciones"></i>
+                    <h4>Instrucciones</h4>
+                </div>
+            </a>
+            
+            <!--Cuarta opción: Contactos-->
+            <a href="Contacto.html">
+                <div class="option">
+                    <i class="far fa-id-badge" title="Contacto"></i>
+                    <h4>Contacto</h4>
+                </div>
+            </a>
+            
+            <!--Quinta opción: Nosotros-->
+            <a href="IniciarSesion.html">
+                <div class="option">
+                    <i class="far fa-address-card" title="Iniciar sesión"></i>
+                    <h4>Iniciar sesión</h4>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!--Principal-->
+    <main>
+        <div class="categorias">
+            <style>
+                .neon{
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px rgb(0, 47, 255), 0 0 80px rgb(146, 185, 201), 0 0 90px rgb(0, 238, 255);
+                }
+            </style>
+            <!--Titulo principal-->
+            <h1 class="text-4xl tracking-wider neon" >INSTRUCCIONES</h1>
+            <!--Información-->
+            <div class="cat1">
+                <P><b>-</b> Primero debes inciar sesión o registrarte</P>
+                <P><b>-</b> Luego debes ir a las categorías y escojer la que más te guste</P>
+                <P><b>-</b> Empieza a jugar</P>
+                <p><b>-</b> Solo debes seleccionar una de las opciones</p>
+                <p><b>-</b> Cuando escojas te aparece si es correcta o no</p>
+                <p><b>-</b> Al final puedes ver tus puntajes</p>
+                <p><b>-</b> Por ultimo ver si ganaste o perdiste</p>
+            </div>
+            <img src="https://img.freepik.com/free-vector/instruction-manual-concept-illustration_114360-3705.jpg?w=740&t=st=1667672967~exp=1667673567~hmac=010e88e71687013355cc63911daa0ddafd325c058f42e9086df194440d110374" alt="img">
+        </div>
+
+        
+    </main>
+    <!--Conexión con el java Script-->
+    <script src="js/script.js"></script>
+</body>
+</html>
